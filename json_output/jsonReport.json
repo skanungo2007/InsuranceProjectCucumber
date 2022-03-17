@@ -1,0 +1,483 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9422717200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsInsurance.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User Registration",
+        "description": "",
+        "id": "insurance-project;user-registration;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 248305800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the home page",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 942639600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on regsiter button",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_click_on_regsiter_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4134989500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fills up personal details \"Mr\" and \"David\" and \"Thompson\" and \"5527466851\" and \"1991\" and \"September\" and \"21\" and \"4\" and \"Engineer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr",
+                  "offset": 32
+                },
+                {
+                  "val": "David",
+                  "offset": 41
+                },
+                {
+                  "val": "Thompson",
+                  "offset": 53
+                },
+                {
+                  "val": "5527466851",
+                  "offset": 68
+                },
+                {
+                  "val": "1991",
+                  "offset": 85
+                },
+                {
+                  "val": "September",
+                  "offset": 96
+                },
+                {
+                  "val": "21",
+                  "offset": 112
+                },
+                {
+                  "val": "4",
+                  "offset": 121
+                },
+                {
+                  "val": "Engineer",
+                  "offset": 129
+                }
+              ],
+              "location": "StepDefinitionsInsurance.user_fills_up_personal_details_and_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3774937800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Then fills other details like  and \"Red Wood St\" and \"Kolkata\" and \"India\" and \"700256\" and \"dt@gmail.com\" and \"12345!\" and \"12345!\" and clicks Submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Red Wood St",
+                  "offset": 36
+                },
+                {
+                  "val": "Kolkata",
+                  "offset": 54
+                },
+                {
+                  "val": "India",
+                  "offset": 68
+                },
+                {
+                  "val": "700256",
+                  "offset": 80
+                },
+                {
+                  "val": "dt@gmail.com",
+                  "offset": 93
+                },
+                {
+                  "val": "12345!",
+                  "offset": 112
+                },
+                {
+                  "val": "12345!",
+                  "offset": 125
+                }
+              ],
+              "location": "StepDefinitionsInsurance.then_fills_other_details_like_and_and_and_and_and_and_and_and_clicks_Submit(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24021900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User returns to home page if the registration is successfull",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_returns_to_home_page_if_the_registration_is_successfull()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 923217900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User closes the browser",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_closes_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6976213700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsInsurance.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User Registration",
+        "description": "",
+        "id": "insurance-project;user-registration;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39419200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the home page",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 965365800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on regsiter button",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_click_on_regsiter_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3942636600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fills up personal details \"Mrs\" and \"Sunita\" and \"Williams\" and \"9445882365\" and \"1991\" and \"December\" and \"15\" and \"2\" and \"Doctor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mrs",
+                  "offset": 32
+                },
+                {
+                  "val": "Sunita",
+                  "offset": 42
+                },
+                {
+                  "val": "Williams",
+                  "offset": 55
+                },
+                {
+                  "val": "9445882365",
+                  "offset": 70
+                },
+                {
+                  "val": "1991",
+                  "offset": 87
+                },
+                {
+                  "val": "December",
+                  "offset": 98
+                },
+                {
+                  "val": "15",
+                  "offset": 113
+                },
+                {
+                  "val": "2",
+                  "offset": 122
+                },
+                {
+                  "val": "Doctor",
+                  "offset": 130
+                }
+              ],
+              "location": "StepDefinitionsInsurance.user_fills_up_personal_details_and_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3632446600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Then fills other details like  and \"Green Avenue St\" and \"Kolkata\" and \"India\" and \"700744\" and \"sw@gmail.com\" and \"12345!\" and \"12345!\" and clicks Submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Green Avenue St",
+                  "offset": 36
+                },
+                {
+                  "val": "Kolkata",
+                  "offset": 58
+                },
+                {
+                  "val": "India",
+                  "offset": 72
+                },
+                {
+                  "val": "700744",
+                  "offset": 84
+                },
+                {
+                  "val": "sw@gmail.com",
+                  "offset": 97
+                },
+                {
+                  "val": "12345!",
+                  "offset": 116
+                },
+                {
+                  "val": "12345!",
+                  "offset": 129
+                }
+              ],
+              "location": "StepDefinitionsInsurance.then_fills_other_details_like_and_and_and_and_and_and_and_and_clicks_Submit(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61124100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User returns to home page if the registration is successfull",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_returns_to_home_page_if_the_registration_is_successfull()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 942308600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User closes the browser",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_closes_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7129444800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsInsurance.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Check Login Function",
+        "description": "",
+        "id": "insurance-project;check-login-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36067700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User visit the home page",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_visit_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7286202600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters the credentials \"dt@gmail.com\" and \"12345!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dt@gmail.com",
+                  "offset": 29
+                },
+                {
+                  "val": "12345!",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinitionsInsurance.user_enters_the_credentials_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90962800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User verifies and validates the login",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_verifies_and_validates_the_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4248242800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on logout",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_clicks_on_logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 981939000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User closes browser",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_closes_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Insurance Project",
+    "description": "",
+    "id": "insurance-project",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/Insurance.feature"
+  }
+]

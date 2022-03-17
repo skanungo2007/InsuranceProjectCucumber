@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="55.803205">
+<testcase classname="Insurance Project" name="User Registration" time="19.47083">
+<system-out><![CDATA[Given User is on the home page..............................................passed
+When User click on regsiter button..........................................passed
+Then User fills up personal details "Mr" and "David" and "Thompson" and "5527466851" and "1991" and "September" and "21" and "4" and "Engineer".passed
+And Then fills other details like  and "Red Wood St" and "Kolkata" and "India" and "700256" and "dt@gmail.com" and "12345!" and "12345!" and clicks Submit.passed
+And User returns to home page if the registration is successfull............passed
+And User closes the browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insurance Project" name="User Registration 2" time="16.559515">
+<system-out><![CDATA[Given User is on the home page..............................................passed
+When User click on regsiter button..........................................passed
+Then User fills up personal details "Mrs" and "Sunita" and "Williams" and "9445882365" and "1991" and "December" and "15" and "2" and "Doctor".passed
+And Then fills other details like  and "Green Avenue St" and "Kolkata" and "India" and "700744" and "sw@gmail.com" and "12345!" and "12345!" and clicks Submit.passed
+And User returns to home page if the registration is successfull............passed
+And User closes the browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insurance Project" name="Check Login Function" time="19.77286">
+<system-out><![CDATA[Given User visit the home page..............................................passed
+When User enters the credentials "dt@gmail.com" and "12345!"................passed
+Then User verifies and validates the login..................................passed
+And User clicks on logout...................................................passed
+And User closes browser.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
