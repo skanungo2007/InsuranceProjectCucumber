@@ -126,7 +126,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 9422717200,
+  "duration": 9711034000,
   "status": "passed"
 });
 formatter.scenario({
@@ -197,14 +197,14 @@ formatter.match({
   "location": "StepDefinitionsInsurance.user_is_on_the_home_page()"
 });
 formatter.result({
-  "duration": 248305800,
+  "duration": 228744100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionsInsurance.user_click_on_regsiter_button()"
 });
 formatter.result({
-  "duration": 942639600,
+  "duration": 971762200,
   "status": "passed"
 });
 formatter.match({
@@ -249,7 +249,7 @@ formatter.match({
   "location": "StepDefinitionsInsurance.user_fills_up_personal_details_and_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 4134989500,
+  "duration": 3912409600,
   "status": "passed"
 });
 formatter.match({
@@ -286,25 +286,25 @@ formatter.match({
   "location": "StepDefinitionsInsurance.then_fills_other_details_like_and_and_and_and_and_and_and_and_clicks_Submit(String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 3774937800,
+  "duration": 4169982200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionsInsurance.user_returns_to_home_page_if_the_registration_is_successfull()"
 });
 formatter.result({
-  "duration": 24021900,
+  "duration": 18386200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionsInsurance.user_closes_the_browser()"
 });
 formatter.result({
-  "duration": 923217900,
+  "duration": 876667600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6976213700,
+  "duration": 7163920800,
   "status": "passed"
 });
 formatter.scenario({
@@ -375,14 +375,14 @@ formatter.match({
   "location": "StepDefinitionsInsurance.user_is_on_the_home_page()"
 });
 formatter.result({
-  "duration": 39419200,
+  "duration": 42101600,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionsInsurance.user_click_on_regsiter_button()"
 });
 formatter.result({
-  "duration": 965365800,
+  "duration": 960939100,
   "status": "passed"
 });
 formatter.match({
@@ -427,7 +427,7 @@ formatter.match({
   "location": "StepDefinitionsInsurance.user_fills_up_personal_details_and_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 3942636600,
+  "duration": 3661648600,
   "status": "passed"
 });
 formatter.match({
@@ -464,25 +464,25 @@ formatter.match({
   "location": "StepDefinitionsInsurance.then_fills_other_details_like_and_and_and_and_and_and_and_and_clicks_Submit(String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 3632446600,
+  "duration": 4095587000,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionsInsurance.user_returns_to_home_page_if_the_registration_is_successfull()"
 });
 formatter.result({
-  "duration": 61124100,
+  "duration": 35311100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionsInsurance.user_closes_the_browser()"
 });
 formatter.result({
-  "duration": 942308600,
+  "duration": 875197900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 7129444800,
+  "duration": 7174932500,
   "status": "passed"
 });
 formatter.scenario({
@@ -528,7 +528,7 @@ formatter.match({
   "location": "StepDefinitionsInsurance.user_visit_the_home_page()"
 });
 formatter.result({
-  "duration": 36067700,
+  "duration": 42755600,
   "status": "passed"
 });
 formatter.match({
@@ -545,28 +545,28 @@ formatter.match({
   "location": "StepDefinitionsInsurance.user_enters_the_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 7286202600,
+  "duration": 7703377800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionsInsurance.user_verifies_and_validates_the_login()"
 });
 formatter.result({
-  "duration": 90962800,
+  "duration": 155169800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionsInsurance.user_clicks_on_logout()"
 });
 formatter.result({
-  "duration": 4248242800,
+  "duration": 4213151700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitionsInsurance.user_closes_browser()"
 });
 formatter.result({
-  "duration": 981939000,
+  "duration": 805632300,
   "status": "passed"
 });
 });
