@@ -1,0 +1,7 @@
+pageInsurance\HomeInsurance.class
+utilityInsurance\UtilityClassInsurance.class
+baseInsurance\BaseClassInsurance.class
+pageInsurance\LandingPage.class
+stepDefinitions\StepDefinitionsInsurance.class
+pageInsurance\Registration.class
+testRunner\InsuranceTestRunner.class
