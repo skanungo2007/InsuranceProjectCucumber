@@ -1,6 +1,7 @@
-Feature: Insurance Project
+@Smoke
+Feature: Insurance Project Login and Registration
 
-	@Smoke
+	
 	Scenario Outline: User Registration
 		Given User is on the home page
 		When User click on regsiter button
@@ -16,7 +17,7 @@ Feature: Insurance Project
 	
 	
 	
-	@Regression
+	
 	Scenario: Check Login Function
 		Given User visit the home page 
 		When User enters the credentials "dt@gmail.com" and "12345!"

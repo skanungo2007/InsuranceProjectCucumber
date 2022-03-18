@@ -1,32 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="49183" started-at="2022-03-18T05:51:34Z" finished-at="2022-03-18T05:52:23Z">
+  <suite name="Default suite" duration-ms="63776" started-at="2022-03-18T07:33:29Z" finished-at="2022-03-18T07:34:33Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="49183" started-at="2022-03-18T05:51:34Z" finished-at="2022-03-18T05:52:23Z">
+    <test name="Default test" duration-ms="63776" started-at="2022-03-18T07:33:29Z" finished-at="2022-03-18T07:34:33Z">
       <class name="testRunner.InsuranceTestRunner">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testRunner.InsuranceTestRunner@31dc339b]" name="initialize" is-config="true" duration-ms="303" started-at="2022-03-18T05:51:34Z" finished-at="2022-03-18T05:51:35Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testRunner.InsuranceTestRunner@5025a98f]" name="initialize" is-config="true" duration-ms="394" started-at="2022-03-18T07:33:29Z" finished-at="2022-03-18T07:33:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.InsuranceTestRunner@31dc339b]" name="feature" duration-ms="48664" started-at="2022-03-18T05:51:35Z" description="Cucumber with TestNG" data-provider="getFeature" finished-at="2022-03-18T05:52:23Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.InsuranceTestRunner@5025a98f]" name="feature" duration-ms="23839" started-at="2022-03-18T07:33:30Z" description="Insurance Project" data-provider="getFeatures" finished-at="2022-03-18T07:33:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Insurance Project]]>
+                <![CDATA[Calculate Premium]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testRunner.InsuranceTestRunner@31dc339b]" name="close" is-config="true" duration-ms="76" started-at="2022-03-18T05:52:23Z" finished-at="2022-03-18T05:52:23Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.InsuranceTestRunner@5025a98f]" name="feature" duration-ms="39269" started-at="2022-03-18T07:33:53Z" description="Insurance Project" data-provider="getFeatures" finished-at="2022-03-18T07:34:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Insurance Project Login and Registration]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="closeSetup()[pri:0, instance:testRunner.InsuranceTestRunner@5025a98f]" name="closeSetup" is-config="true" duration-ms="83" started-at="2022-03-18T07:34:33Z" finished-at="2022-03-18T07:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
       </class> <!-- testRunner.InsuranceTestRunner -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

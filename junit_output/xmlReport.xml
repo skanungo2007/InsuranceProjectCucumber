@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="46.760483">
-<testcase classname="Insurance Project" name="User Registration" time="16.621511">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="62.938356">
+<testcase classname="Calculate Premium" name="View Premium for the user" time="23.742203">
+<system-out><![CDATA[Given User visits the Insurance Home Page and verifies the title............passed
+When User clicks login after giving the credentials.........................passed
+Then User validates the login by checking the profile name..................passed
+Then User clicks on Request Quotation.......................................passed
+And User gives the details for calulation...................................passed
+Then User decides to log out................................................passed
+And Close the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insurance Project Login and Registration" name="User Registration" time="12.519716">
 <system-out><![CDATA[Given User is on the home page..............................................passed
 When User click on regsiter button..........................................passed
 Then User fills up personal details "Mr" and "David" and "Thompson" and "5527466851" and "1991" and "September" and "21" and "4" and "Engineer".passed
@@ -9,7 +19,7 @@ And User returns to home page if the registration is successfull............pass
 And User closes the browser.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Insurance Project" name="User Registration 2" time="14.666735">
+<testcase classname="Insurance Project Login and Registration" name="User Registration 2" time="12.300721">
 <system-out><![CDATA[Given User is on the home page..............................................passed
 When User click on regsiter button..........................................passed
 Then User fills up personal details "Mrs" and "Sunita" and "Williams" and "9445882365" and "1991" and "December" and "15" and "2" and "Doctor".passed
@@ -18,7 +28,7 @@ And User returns to home page if the registration is successfull............pass
 And User closes the browser.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Insurance Project" name="Check Login Function" time="15.472237">
+<testcase classname="Insurance Project Login and Registration" name="Check Login Function" time="14.375716">
 <system-out><![CDATA[Given User visit the home page..............................................passed
 When User enters the credentials "dt@gmail.com" and "12345!"................passed
 Then User verifies and validates the login..................................passed

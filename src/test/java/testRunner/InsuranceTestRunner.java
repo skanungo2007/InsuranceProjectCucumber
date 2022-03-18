@@ -14,7 +14,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 @RunWith(Cucumber.class)
 @CucumberOptions (
 		
-			features = ".\\src/test/java\\features\\Insurance.feature",
+			features = {".\\src/test/java\\features\\Register and Login.feature", ".\\src/test/java\\features\\CalculatePremium.feature"},
 			glue = "stepDefinitions",
 			format = {"pretty", "html:html_output", "json:json_output/jsonReport.json", "junit:junit_output/xmlReport.xml"},
 			monochrome = true,
