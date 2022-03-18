@@ -1,9 +1,15 @@
 package testRunner;
 
 import org.junit.runner.RunWith;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.CucumberFeatureWrapper;
+import cucumber.api.testng.TestNGCucumberRunner;
 
 @RunWith(Cucumber.class)
 @CucumberOptions (
@@ -21,5 +27,38 @@ import cucumber.api.junit.Cucumber;
 
 
 public class InsuranceTestRunner {
+	
+	TestNGCucumberRunner testNGCucumberRunner;
+	
+	@BeforeClass
+	public void initialize() {
+		
+		testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
+		
+	}
+	
+	@Test(description="Insurance Project", dataProvider="getFeatures")
+	public void feature(CucumberFeatureWrapper cucumberFeature) {
+		
+		testNGCucumberRunner.runCucumber(cucumberFeature.getCucumberFeature());
+		
+	}
+	
+	@DataProvider
+	public Object[][] getFeatures() {
+		
+		return testNGCucumberRunner.provideFeatures();
+		
+	}
+	
+	@AfterClass
+	public void closeSetup() {
+		
+		testNGCucumberRunner.finish();
+		
+	}
+	
+	
+	
 
 }

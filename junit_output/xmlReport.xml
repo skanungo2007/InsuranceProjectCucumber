@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="56.818712">
-<testcase classname="Insurance Project" name="User Registration" time="19.888986">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="46.760483">
+<testcase classname="Insurance Project" name="User Registration" time="16.621511">
 <system-out><![CDATA[Given User is on the home page..............................................passed
 When User click on regsiter button..........................................passed
 Then User fills up personal details "Mr" and "David" and "Thompson" and "5527466851" and "1991" and "September" and "21" and "4" and "Engineer".passed
@@ -9,7 +9,7 @@ And User returns to home page if the registration is successfull............pass
 And User closes the browser.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Insurance Project" name="User Registration 2" time="16.834706">
+<testcase classname="Insurance Project" name="User Registration 2" time="14.666735">
 <system-out><![CDATA[Given User is on the home page..............................................passed
 When User click on regsiter button..........................................passed
 Then User fills up personal details "Mrs" and "Sunita" and "Williams" and "9445882365" and "1991" and "December" and "15" and "2" and "Doctor".passed
@@ -18,7 +18,7 @@ And User returns to home page if the registration is successfull............pass
 And User closes the browser.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Insurance Project" name="Check Login Function" time="20.09502">
+<testcase classname="Insurance Project" name="Check Login Function" time="15.472237">
 <system-out><![CDATA[Given User visit the home page..............................................passed
 When User enters the credentials "dt@gmail.com" and "12345!"................passed
 Then User verifies and validates the login..................................passed
