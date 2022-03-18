@@ -27,7 +27,20 @@ pipeline {
 				git 'https://github.com/skanungo2007/InsuranceProjectCucumber.git'
 				
 				script {
-					bat 'mvn clean install'
+					bat 'mvn compile'
+				}
+			}
+		
+		}
+		
+		stage('Test') {
+		
+			steps {
+				
+				git 'https://github.com/skanungo2007/InsuranceProjectCucumber.git'
+				
+				script {
+					bat 'mvn test'
 				}
 			}
 		
