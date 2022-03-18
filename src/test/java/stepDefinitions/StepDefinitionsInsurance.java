@@ -1,6 +1,10 @@
 package stepDefinitions;
 
+import java.util.List;
+import java.util.Map;
+
 import baseInsurance.BaseClassInsurance;
+import cucumber.api.DataTable;
 import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -15,11 +19,12 @@ import pageInsurance.Registration;
 public class StepDefinitionsInsurance extends BaseClassInsurance {
 	
 	
-	
 	@Before
 	public void setup() {
 		
 		setupBrowser();
+		
+		
 		
 	}
 	
@@ -127,6 +132,85 @@ public class StepDefinitionsInsurance extends BaseClassInsurance {
 	}
 
 
+	//Scenario 3 Calculate Premium
+	//******************************************************
+		
+	
+		
+	@Given("^User visits the Insurance Home Page and verifies the title$")
+	public void user_visits_the_Insurance_Home_Page_and_verifies_the_title() throws Throwable {
+	    
+		HomeInsurance home = new HomeInsurance(driver);
+		
+		home.verifyHome();
+		
+	}
 
+	@When("^User clicks login after giving the credentials$")
+	public void user_clicks_login_after_giving_the_credentials(DataTable credentials) throws Throwable {
+	    
+		HomeInsurance home = new HomeInsurance(driver);
+		
+		List<List<String>> data = credentials.raw();
+		
+		home.loginUser(data.get(0).get(0), data.get(0).get(1));
+		
+		
+	}
+
+	@Then("^User validates the login by checking the profile name$")
+	public void user_validates_the_login_by_checking_the_profile_name() throws Throwable {
+	   
+		
+		LandingPage land = new LandingPage(driver);
+		
+		land.verifyAndValidate();
+		
+	}
+
+	@Then("^User clicks on Request Quotation$")
+	public void user_clicks_on_Request_Quotation() throws Throwable {
+	   
+		LandingPage land = new LandingPage(driver);
+		
+		land.clickQuotation();
+		
+	}
+
+	@Then("^User gives the details for calulation$")
+	public void user_gives_the_details_for_calulation(DataTable quoteValues) throws Throwable {
+	    
+		LandingPage land = new LandingPage(driver);
+		
+		for(Map<String, String> values: quoteValues.asMaps(String.class, String.class)) {
+			
+			land.calculatePremium(values.get("BreakDownCover"), values.get("Repair"), values.get("Incidents"), values.get("Registration"), values.get("Mileage"), values.get("Value"), values.get("Location"), values.get("Year"), values.get("Month"), values.get("Day"));
+			
+			
+			land.getPremium();
+		}
+		
+		
+	}
+
+	@Then("^User decides to log out$")
+	public void user_decides_to_log_out() throws Throwable {
+	    
+		LandingPage land = new LandingPage(driver);
+		
+		land.logOut();
+		
+	}
+
+	@Then("^Close the browser$")
+	public void close_the_browser() throws Throwable {
+	    
+		closeBrowser();
+		
+	}
+
+
+
+	
 
 }

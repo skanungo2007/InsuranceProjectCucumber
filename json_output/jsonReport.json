@@ -1,12 +1,12 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 6719203800,
+              "duration": 6642391300,
               "status": "passed"
             },
             "match": {
@@ -14,19 +14,196 @@
             }
           }
         ],
-        "line": 14,
+        "line": 5,
+        "name": "View Premium for the user",
+        "description": "",
+        "id": "calculate-premium;view-premium-for-the-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 502496200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User visits the Insurance Home Page and verifies the title",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_visits_the_Insurance_Home_Page_and_verifies_the_title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4959018500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks login after giving the credentials",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_clicks_login_after_giving_the_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sw@gmail.com",
+                  "12345!"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77935500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User validates the login by checking the profile name",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_validates_the_login_by_checking_the_profile_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 176539000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Request Quotation",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_clicks_on_Request_Quotation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6704110000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User gives the details for calulation",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_gives_the_details_for_calulation(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "BreakDownCover",
+                  "Repair",
+                  "Incidents",
+                  "Registration",
+                  "Mileage",
+                  "Value",
+                  "Location",
+                  "Year",
+                  "Month",
+                  "Day"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Roadside",
+                  "Yes",
+                  "Damage",
+                  "WB02RT5599",
+                  "39550",
+                  "150000",
+                  "Street/Road",
+                  "2020",
+                  "June",
+                  "25"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "At home",
+                  "No",
+                  "Service",
+                  "WB02TG4415",
+                  "7455",
+                  "951100",
+                  "Locked Garage",
+                  "2019",
+                  "September",
+                  "19"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3842476700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User decides to log out",
+            "match": {
+              "location": "StepDefinitionsInsurance.user_decides_to_log_out()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 837235900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close the browser",
+            "match": {
+              "location": "StepDefinitionsInsurance.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Calculate Premium",
+    "description": "",
+    "id": "calculate-premium",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/CalculatePremium.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4805655200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsInsurance.setup()"
+            }
+          }
+        ],
+        "line": 15,
         "name": "User Registration",
         "description": "",
-        "id": "insurance-project;user-registration;;2",
+        "id": "insurance-project-login-and-registration;user-registration;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 543030100,
+              "duration": 25031500,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "User is on the home page",
             "match": {
               "location": "StepDefinitionsInsurance.user_is_on_the_home_page()"
@@ -35,10 +212,10 @@
           },
           {
             "result": {
-              "duration": 973453700,
+              "duration": 918108100,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User click on regsiter button",
             "match": {
               "location": "StepDefinitionsInsurance.user_click_on_regsiter_button()"
@@ -47,10 +224,10 @@
           },
           {
             "result": {
-              "duration": 3090083600,
+              "duration": 2664304700,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User fills up personal details \"Mr\" and \"David\" and \"Thompson\" and \"5527466851\" and \"1991\" and \"September\" and \"21\" and \"4\" and \"Engineer\"",
             "match": {
               "arguments": [
@@ -108,10 +285,10 @@
           },
           {
             "result": {
-              "duration": 4324626900,
+              "duration": 3282362800,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Then fills other details like  and \"Red Wood St\" and \"Kolkata\" and \"India\" and \"700256\" and \"dt@gmail.com\" and \"12345!\" and \"12345!\" and clicks Submit",
             "match": {
               "arguments": [
@@ -159,10 +336,10 @@
           },
           {
             "result": {
-              "duration": 85111600,
+              "duration": 42752100,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "User returns to home page if the registration is successfull",
             "match": {
               "location": "StepDefinitionsInsurance.user_returns_to_home_page_if_the_registration_is_successfull()"
@@ -171,10 +348,10 @@
           },
           {
             "result": {
-              "duration": 886001200,
+              "duration": 781501400,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "User closes the browser",
             "match": {
               "location": "StepDefinitionsInsurance.user_closes_the_browser()"
@@ -184,7 +361,7 @@
         ],
         "tags": [
           {
-            "line": 3,
+            "line": 1,
             "name": "@Smoke"
           }
         ]
@@ -193,7 +370,7 @@
         "before": [
           {
             "result": {
-              "duration": 4911008300,
+              "duration": 4744912600,
               "status": "passed"
             },
             "match": {
@@ -201,19 +378,19 @@
             }
           }
         ],
-        "line": 15,
+        "line": 16,
         "name": "User Registration",
         "description": "",
-        "id": "insurance-project;user-registration;;3",
+        "id": "insurance-project-login-and-registration;user-registration;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 106092200,
+              "duration": 31994000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "User is on the home page",
             "match": {
               "location": "StepDefinitionsInsurance.user_is_on_the_home_page()"
@@ -222,10 +399,10 @@
           },
           {
             "result": {
-              "duration": 1315519300,
+              "duration": 942580100,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User click on regsiter button",
             "match": {
               "location": "StepDefinitionsInsurance.user_click_on_regsiter_button()"
@@ -234,10 +411,10 @@
           },
           {
             "result": {
-              "duration": 3835593400,
+              "duration": 2495238500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User fills up personal details \"Mrs\" and \"Sunita\" and \"Williams\" and \"9445882365\" and \"1991\" and \"December\" and \"15\" and \"2\" and \"Doctor\"",
             "match": {
               "arguments": [
@@ -295,10 +472,10 @@
           },
           {
             "result": {
-              "duration": 3636465300,
+              "duration": 3269538800,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Then fills other details like  and \"Green Avenue St\" and \"Kolkata\" and \"India\" and \"700744\" and \"sw@gmail.com\" and \"12345!\" and \"12345!\" and clicks Submit",
             "match": {
               "arguments": [
@@ -346,10 +523,10 @@
           },
           {
             "result": {
-              "duration": 23162400,
+              "duration": 33283000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "User returns to home page if the registration is successfull",
             "match": {
               "location": "StepDefinitionsInsurance.user_returns_to_home_page_if_the_registration_is_successfull()"
@@ -358,10 +535,10 @@
           },
           {
             "result": {
-              "duration": 838894100,
+              "duration": 783173600,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "User closes the browser",
             "match": {
               "location": "StepDefinitionsInsurance.user_closes_the_browser()"
@@ -371,7 +548,7 @@
         ],
         "tags": [
           {
-            "line": 3,
+            "line": 1,
             "name": "@Smoke"
           }
         ]
@@ -380,7 +557,7 @@
         "before": [
           {
             "result": {
-              "duration": 5120539500,
+              "duration": 4714738900,
               "status": "passed"
             },
             "match": {
@@ -388,19 +565,19 @@
             }
           }
         ],
-        "line": 20,
+        "line": 21,
         "name": "Check Login Function",
         "description": "",
-        "id": "insurance-project;check-login-function",
+        "id": "insurance-project-login-and-registration;check-login-function",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 114596200,
+              "duration": 29508300,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "User visit the home page",
             "match": {
               "location": "StepDefinitionsInsurance.user_visit_the_home_page()"
@@ -409,10 +586,10 @@
           },
           {
             "result": {
-              "duration": 5958161000,
+              "duration": 5608887600,
               "status": "passed"
             },
-            "line": 22,
+            "line": 23,
             "name": "User enters the credentials \"dt@gmail.com\" and \"12345!\"",
             "match": {
               "arguments": [
@@ -431,10 +608,10 @@
           },
           {
             "result": {
-              "duration": 124756600,
+              "duration": 78568300,
               "status": "passed"
             },
-            "line": 23,
+            "line": 24,
             "name": "User verifies and validates the login",
             "match": {
               "location": "StepDefinitionsInsurance.user_verifies_and_validates_the_login()"
@@ -443,10 +620,10 @@
           },
           {
             "result": {
-              "duration": 3336668100,
+              "duration": 3150788400,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "User clicks on logout",
             "match": {
               "location": "StepDefinitionsInsurance.user_clicks_on_logout()"
@@ -455,29 +632,29 @@
           },
           {
             "result": {
-              "duration": 817515700,
+              "duration": 793224400,
               "status": "passed"
             },
-            "line": 25,
+            "line": 26,
             "name": "User closes browser",
             "match": {
               "location": "StepDefinitionsInsurance.user_closes_browser()"
             },
             "keyword": "And "
           }
-        ],
-        "tags": [
-          {
-            "line": 19,
-            "name": "@Regression"
-          }
         ]
       }
     ],
-    "name": "Insurance Project",
+    "name": "Insurance Project Login and Registration",
     "description": "",
-    "id": "insurance-project",
+    "id": "insurance-project-login-and-registration",
     "keyword": "Feature",
-    "uri": "./src/test/java/features/Insurance.feature"
+    "uri": "./src/test/java/features/Register and Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
   }
 ]
