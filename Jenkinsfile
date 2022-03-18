@@ -7,6 +7,12 @@ pipeline {
 		}
 	}
 	
+	tools {
+	
+		maven "Maven"
+		
+	}
+	
 	options {
 		timestamps()
 	}
@@ -28,5 +34,14 @@ pipeline {
 		}
 	
 	}
+	
+	post {
+		
+		always {
+			
+			step([$class : 'Publisher', reportFilenamePattern : '**/testng-results.xml'])
+			
+		}
+	}		
 	
 }
